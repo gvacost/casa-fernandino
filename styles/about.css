@@ -1,0 +1,57 @@
+#content{
+    max-width: 1600px;
+    margin: 0;
+    }
+
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(9, 97, 28);
+}
+
+#encabezado{
+    background-color: white;   
+    grid-row: 1/2;
+    grid-template-columns: 200px auto;
+}
+.logo {
+    width: 90px;
+}
+.logotext{
+    text-align: center;
+    font-size: large;
+    color: #000;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+nav a { 
+    text-align: center; 
+    align-self: center;
+    color: #fcfbfb;
+    text-decoration: none; 
+    padding: 15px;
+    background-color: rgb(9, 97, 28); 
+    color: #000;
+
+}  
+
+
+
+.cuerpo{
+    background-color: rgb(48, 146, 48);
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+#logoig{
+    width: 15px;
+}
+
+
+footer{
+    background-color: rgb(156, 152, 152);
+    text-align: center;
+}
