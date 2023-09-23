@@ -119,7 +119,7 @@ function clickCol(){
 }
 
 function clikFar(){
-    reset();
+    // reset();
     let selfar = document.getElementById('FAROLES').value;
     if (selfar === 'pcolumnas'){
         reset();
@@ -127,31 +127,31 @@ function clikFar(){
         img.src = '';
         img.alt = 'Faroles para Columnas';
         iimm.appendChild(img);
-        images.append(img);
+        images.append(iimm);
     }
     if (selfar === 'medios'){
         reset();
-        let img = document.createElement('img');
-        img.src = '';
-        img.alt = 'Faroles Medios';
-        iimm.appendChild(img);
-        images.append(img);
+        let img2 = document.createElement('img');
+        img2.src = '';
+        img2.alt = 'Faroles Medios';
+        iimm.appendChild(img2);
+        images.append(iimm);
     }
     if (selfar === 'colgantes'){
         reset();
-        let img = document.createElement('img');
-        img.src = '';
-        img.alt = 'Faroles Colgantes';
-        iimm.appendChild(img);
-        images.append(img);
+        let img3 = document.createElement('img');
+        img3.src = '';
+        img3.alt = 'Faroles Colgantes';
+        iimm.appendChild(img3);
+        images.append(iimm);
     }
     if (selfar === 'cmensula'){
         reset();
-        let img = document.createElement('img');
-        img.src = '';
-        img.alt = 'Faroles con Mensula';
-        iimm.appendChild(img);
-        images.append(img);
+        let img4 = document.createElement('img');
+        img4.src = '';
+        img4.alt = 'Faroles con Mensula';
+        iimm.appendChild(img4);
+        images.append(iimm);
     }
 }
 function reset(){
