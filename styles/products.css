@@ -37,17 +37,29 @@ nav a {
     color: #000;
 
 }  
-
-
-
 main{
+    background-color: rgb(48, 146, 48);
+    min-height: 500px;
+    display: block;
+}
+
+
+#submain{
     background-color: rgb(48, 146, 48);
     display: grid;
     grid-template-rows: repeat(2, 1fr); 
     grid-template-columns: repeat(3, 1fr)
 }
-
+button{
+    background-color: rgb(48, 146, 48);
+}
+select{
+    background-color: rgb(48, 146, 48);
+}
 #products{
+    text-align: center;
+}
+.products{
     text-align: center;
 }
 
