@@ -1,0 +1,29 @@
+{
+    "Bebederos":[
+        {
+            "id": "B001",
+            "name": "Ostra Chica",
+            "URL": "Productos/Bebederos/Bebederos/Beb-001.PNG"
+        },
+        {   
+            "id": "B002",
+            "name": "Ostra Mediana",
+            "URL": "Productos/Bebederos/Bebederos/Beb-002.PNG"
+        },
+        {   
+            "id": "B003",
+            "name": "Hoja Parra",
+            "URL": "Productos/Bebederos/Bebederos/Beb-003.PNG"
+        },
+        {   
+            "id": "B004",
+            "name": "Ostra Grande",
+            "URL": "Productos/Bebederos/Bebederos/Beb-004.PNG"
+        },
+        {
+            "id": "B005",
+            "name": "Hoja Limon",
+            "URL": "Productos/Bebederos/Bebederos/Beb-005.PNG"
+        }
+    ]
+}
