@@ -1,21 +1,57 @@
 let iimm = document.createElement('section');
 let images = document.getElementById('imagenes');
 
-function clickEvent (){
+function clickEvent (listImages){
     reset();
     let buttton = document.getElementById('BEBEDEROS').value;
     if (buttton == 'BEBEDEROS'){
-        let img1 = document.createElement('img');
-        let img2 = document.createElement('img');
-        img1.src = 'Productos/Bebederos/Cat-Page-36.jpg';
-        img1.alt = 'Bebederos'
-        img2.src = 'Productos/Bebederos/Cat-Page-40.jpg';
-        img2.alt = 'Buzones'
-        iimm.appendChild(img1);
-        iimm.appendChild(img2);
-        images.append(iimm);
+            getImages();
+            if (Array.isArray(listImages.Bebederos)) {
+            listImages.Bebederos.forEach((item, i) => {
+                // let article = document.createElement('article');
+
+                let name = document.createElement('h3');
+                name.innerHTML = item.name;
+                iimm.appendChild(name);
+
+                let img = document.createElement('img')
+                img.src = item.URL;
+                iimm.appendChild(img);
+                images.append(iimm);
+            })};
+    
+        
+        // let img1 = document.createElement('img');
+        // let img2 = document.createElement('img');
+        // img1.src = 'Productos/Bebederos/Cat-Page-36.jpg';
+        // img1.alt = 'Bebederos'
+        // img2.src = 'Productos/Bebederos/Cat-Page-40.jpg';
+        // img2.alt = 'Buzones'
+        // iimm.appendChild(img1);
+        // iimm.appendChild(img2);
+        // images.append(iimm);
     }
-}
+    
+};
+function clickBuz(listImages){
+    reset();
+    let but = document.getElementById('BUZONES').value;
+    if (but == 'BUZONES'){
+            getImages()
+            if (Array.isArray(listImages.Buzones)) {
+                listImages.Buzones.forEach((item, i) => {
+                    // let article = document.createElement('article');
+    
+                    let name = document.createElement('h3');
+                    name.innerHTML = item.name;
+                    iimm.appendChild(name);
+    
+                    let img = document.createElement('img')
+                    img.src = item.URL;
+                    iimm.appendChild(img);
+                    images.append(iimm);
+                })};
+}};
 function clikBid(){
     reset();
     let buttton = document.getElementById('BIDIRECCIONALES').value;
@@ -152,6 +188,17 @@ function clikFar(){
         img4.alt = 'Faroles con Mensula';
         iimm.appendChild(img4);
         images.append(iimm);
+    }
+}
+
+async function getImages(){
+    const URL = "https://raw.githubusercontent.com/gvacost/casa-fernandino/casafernandino/allimages.json";
+    const imgResponse = await fetch(URL);
+    
+    if (imgResponse.ok){
+        listImages = await imgResponse.json();
+        // clickEvent(listImages);
+        clickBuz(listImages);
     }
 }
 function reset(){

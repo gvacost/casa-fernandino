@@ -25,5 +25,28 @@
             "name": "Hoja Limon",
             "URL": "Productos/Bebederos/Bebederos/Beb-005.PNG"
         }
+    ],
+    "Buzones": [
+        {
+            "id": "K001",
+            "name": "Palmo Chica",
+            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+        },
+        {
+            "id": "K002",
+            "name": "Palmo Chica",
+            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+        },
+        {
+            "id": "K003",
+            "name": "Palmo Chica",
+            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+        },
+        {
+            "id": "K004",
+            "name": "Palmo Chica",
+            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+        }
+        
     ]
 }
