@@ -29,23 +29,23 @@
     "Buzones": [
         {
             "id": "K001",
-            "name": "Palmo Chica",
+            "name": "Paloma Chica",
             "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
         },
         {
             "id": "K002",
-            "name": "Palmo Chica",
-            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+            "name": "Paloma Grande",
+            "URL": "Productos/Bebederos/Buzones/Buz-002.PNG"
         },
         {
             "id": "K003",
-            "name": "Palmo Chica",
-            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+            "name": "Frances",
+            "URL": "Productos/Bebederos/Buzones/Buz-003.PNG"
         },
         {
             "id": "K004",
-            "name": "Palmo Chica",
-            "URL": "Productos/Bebederos/Buzones/Buz-001.PNG"
+            "name": "P/ Portero 'Commax'",
+            "URL": "Productos/Bebederos/Buzones/Buz-004.PNG"
         }
         
     ]
