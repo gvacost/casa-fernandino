@@ -206,6 +206,7 @@ function reset(){
 }
 
 document.getElementById('BEBEDEROS').addEventListener('click', clickEvent);
+document.getElementById('BUZONES').addEventListener('click', clickBuz);
 document.getElementById('BIDIRECCIONALES').addEventListener('click', clikBid);
 document.getElementById('COMPLEMENTOS').addEventListener('click', clikComp);
 document.getElementById('JUEGOSJARDIN').addEventListener('click', clikJJ);
